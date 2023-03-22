@@ -1,0 +1,18 @@
+#1 Task: Самое длинное слово
+Требуется реализовать функцию longest_words(file_path), которая принимает на вход путь
+до файла и выводит слово, имеющее максимальную длину (или список слов, если таковых
+несколько).
+
+    Тест1:
+    Input file content:
+    """
+    abc
+    abcdefgh
+    abcd
+    a
+    bc
+    """
+
+    longest_words('text.txt')
+    Output:
+    abcdefgh
